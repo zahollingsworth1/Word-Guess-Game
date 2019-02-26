@@ -1,0 +1,32 @@
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
+.colorcard {
+    font-family: 'Staatliches', cursive;
+}
+
+p {
+    margin: 0;
+}
+.animalImage {
+    height: 240px;
+    width: 450px;
+    border-radius: 15px;
+}
+.underscores {
+    font-size: 40px;
+}
+
+.rightguess {
+    font-size: 25px;
+}
+
+.wrongguess {
+    font-size: 25px;
+}
+.countdown {
+    font-size: 25px;
+}

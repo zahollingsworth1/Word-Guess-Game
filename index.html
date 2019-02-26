@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hangman Game</title>   
+    <link rel="shortcut icon" type="image/png" href="assets/images/hangman.png">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <style>
+            body {
+             background-image: url("assets/images/sun_jungle.jpg");
+             background-repeat: no-repeat;
+             background-size: auto;
+                }
+        </style>
+</head>
+
+<body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+    <div class="container col-lg-3 m-3"></div>
+    <div class="container align-items-center">
+        <div class="row mb-3 align-items-center colorcard1">
+            <div class="card pl-1 bg-light colorcard">
+                <h1 class=" text-dark text-center m-0">Hangman: Animals</h1>
+                <hr>
+                <div class="container col">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img class="card-img-top animalImage" src="assets/images/hello.jpg" alt="Card image cap" name="canvas">
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <p class="word m-0">Word:</p>
+                            <div class="underscores"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 m-0">
+
+                            <p>Right Guess:   <span class="rightguess"></span></p>
+                            
+                            <div class="border bottom"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 m-0">
+                            <p>Wrong Guess:   <span class="wrongguess"></span></p>
+                            
+                            <div class="border bottom"></div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-lg-12">
+                            <div>
+                                <p>The number of guesses left is:</p>
+                                <div class="countdown">10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                            <div class="col-lg-12">
+                                <div>
+                                    <p>Wins: <span class="wins"></span></p>
+                                    <p>Loses: <span class="loses"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="row">
+                        <div class="col text-center">
+                            <button id="reset" class="mb-2">Play again</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <audio id="myAudio">
+        <source src="assets/images/Ta Da-SoundBible.com-1884170640.mp3" type="audio"></audio>
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
