@@ -1,7 +1,7 @@
 // create an array of words
 var words = ["whale", "lion", "turkey", "panther", "bird", "bear", "monkey", "horse", "tiger", "dog", "wolf"]
 
-var imagesArray = ["animal12done.jpg", "assets/images/bear.jpg", "assets/images/koala.jpg", "assets/images/pupper.jpg", "assets/images/aminals1.jpg", "assets/images/animalppic.jpg", "assets/images/animalppic1.jpg", "assets/images/animalppic2.jpg", "assets/images/animalppic3.jpg", "assets/images/hamster.jpg"]
+var imagesArray = ["assets/images/animal12done.jpg", "assets/images/bear.jpg", "assets/images/koala.jpg", "assets/images/pupper.jpg", "assets/images/aminals1.jpg", "assets/images/animalppic.jpg", "assets/images/animalppic1.jpg", "assets/images/animalppic2.jpg", "assets/images/animalppic3.jpg", "assets/images/hamster.jpg"]
 
 
 
